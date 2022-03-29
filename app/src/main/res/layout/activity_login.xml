@@ -23,9 +23,9 @@
         app:layout_constraintTop_toBottomOf="@id/login_iv_logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:inputType="text"
-        android:hint="ID" />
+        android:hint="ID code" />
 
     <EditText
         android:layout_width="300dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@id/login_et_code"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:hint="Password"
         android:inputType="textPassword" />
 
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@id/login_et_password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="12dp"
         android:text="Forgot your password?"
         android:textAlignment="textEnd" />
 
@@ -56,9 +56,9 @@
         app:layout_constraintTop_toBottomOf="@id/login_tv_forgot_password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp"
+        android:layout_marginTop="32dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
         android:paddingStart="100dp"
         android:paddingEnd="100dp"
         android:text="Login" />
@@ -71,6 +71,6 @@
         app:layout_constraintTop_toBottomOf="@id/login_btn_login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:padding="20dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
